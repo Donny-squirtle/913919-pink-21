@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body class="page__body">
+    <header class="page-header">
+      <div class="page-header__container">
+        <a class="page-header__logo">
+          <img
+            src="https://via.placeholder.com/150x150"
+            alt="Мобильное приложение PINK"
+          />
+        </a>
+        <nav class="main-navigation">
+          <button class="main-navigation__toggle" type="button">
+            <span class="visulay-hidden">Открыть меню</span>
+          </button>
+          <ul class="main-navigation__list site-list">
+            <li class="site-list__item"><a href="/">Главная</a></li>
+            <li class="site-list__item"><a href="#">Фотографии</a></li>
+            <li class="site-list__item"><a href="#">Конкурс</a></li>
+            <li class="site-list__item"><a href="#">HTML Academy</a></li>
+          </ul>
+        </nav>
+        <section class="app-download">
+          <div class="app-download__container">
+            <h2 class="visulay-hidden">Поддерживаемые платформы</h2>
+            <div class="app-download__top">
+              <p class="app-download__title">
+                Конкурс на самое безбашенное путешествие с Пинк
+              </p>
+              <!-- <img
+                class="app-download__img"
+                src="https://via.placeholder.com/150x150"
+              /> -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main class="page-main">
+      <section class="personal-data">
+        <h2 class="visulay-hidden">Пресональные данные</h2>
+        <div class="personal-data__container">
+          <p class="personal-data__title">
+            Поделитесь своей историей и получите шанс выиграть ценный приз —
+            1000 миль на вашу бонусную карту!
+          </p>
+          <fieldset class="personal-data__wrapper">
+            <legend class="visulay-hidden">Ваши данные</legend>
+            <ul class="personal-data__list pdata-list">
+              <li class="pdata-list__item">
+                <input
+                  class="pdata-list__text"
+                  name="data"
+                  type="text"
+                  id="surname"
+                  placeholder="Укажите фамилию *"
+                />
+                <label class="pdata-list__title" for="surname">
+                  фамилия:
+                </label>
+              </li>
+              <li class="pdata-list__item">
+                <input
+                  class="pdata-list__text"
+                  name="data"
+                  type="text"
+                  id="name"
+                  placeholder="Введите ваше имя *"
+                />
+                <label class="pdata-list__title" for="name"> имя: </label>
+              </li>
+              <li class="pdata-list__item">
+                <input
+                  class="pdata-list__text"
+                  name="data"
+                  type="text"
+                  id="patronymic"
+                  placeholder="Ну и отчество тоже"
+                />
+                <label class="pdata-list__title" for="patronymic">
+                  отчесвто:
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+      <section class="achievements">
+        <h2 class="visulay-hidden">Достижения</h2>
+        <div class="achievements__container">
+          <fieldset class="achievements__wrapper">
+            <legend class="achievements__title">
+              Ваши безбашенные достижения в путешествии
+            </legend>
+            <ul class="achievements__list achiev-list">
+              <li class="achiev-list__item">
+                <input
+                  class="achiev-list__check"
+                  name="achievements"
+                  type="checkbox"
+                  id="shark"
+                />
+                <label class="achiev-list__text" for="shark">
+                  Сделал селфи с акулой
+                </label>
+              </li>
+              <li class="achiev-list__item">
+                <input
+                  class="achiev-list__check"
+                  name="achievements"
+                  type="checkbox"
+                  id="beach"
+                />
+                <label class="achiev-list__text" for="beach">
+                  Обгорел на пляже
+                </label>
+              </li>
+              <li class="achiev-list__item">
+                <input
+                  class="achiev-list__check"
+                  name="achievements"
+                  type="checkbox"
+                  id="norris"
+                />
+                <label class="achiev-list__text" for="norris">
+                  Видел Чака Норриса
+                </label>
+              </li>
+              <li class="achiev-list__item">
+                <input
+                  class="achiev-list__check"
+                  name="achievements"
+                  type="checkbox"
+                  id="shop"
+                />
+                <label class="achiev-list__text" for="shop">
+                  Накупил сувениров
+                </label>
+              </li>
+              <li class="achiev-list__item">
+                <input
+                  class="achiev-list__check"
+                  name="achievements"
+                  type="checkbox"
+                  id="tower"
+                />
+                <label class="achiev-list__text" for="tower">
+                  Удержал башню
+                </label>
+              </li>
+              <li class="achiev-list__item">
+                <input
+                  class="achiev-list__check"
+                  name="achievements"
+                  type="checkbox"
+                  id="hotel"
+                />
+                <label class="achiev-list__text" for="hotel">
+                  Разгромил отель
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+      <section class="personal-data">
+        <h2 class="visulay-hidden">Ваши данные</h2>
+        <div class="personal-data__container">
+          <fieldset class="personal-data__wrapper">
+            <legend class="visulay-hidden">Ваши данные</legend>
+            <ul class="personal-data__list pdata-list">
+              <li class="pdata-list__item">
+                <input
+                  class="pdata-list__text"
+                  name="data"
+                  type="text"
+                  id="phone"
+                  placeholder="Номер, пожалуйста"
+                />
+                <label class="pdata-list__title" for="phone">
+                  номер телефона:
+                </label>
+              </li>
+              <li class="pdata-list__item">
+                <input
+                  class="pdata-list__text"
+                  name="data"
+                  type="text"
+                  id="adress"
+                  placeholder="Введите почту *"
+                />
+                <label class="pdata-list__title" for="adress">
+                  адрес почты:
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+      <section class="travel-app">
+        <h2 class="visulay-hidden">Приложение</h2>
+        <div class="travel-app__container">
+          <fieldset class="travel-app__wrapper">
+            <legend class="travel-app__title">
+              С каким приложением путешествовали?
+            </legend>
+            <ul class="travel-app__list travel-list">
+              <li class="travel-list__item">
+                <input
+                  class="travel-list__radio"
+                  type="radio"
+                  name="travel"
+                  id="ios"
+                />
+                <label class="travel-list__title" for="ios">
+                  Pink для iOS
+                </label>
+              </li>
+              <li class="travel-list__item">
+                <input
+                  class="travel-list__radio"
+                  type="radio"
+                  name="travel"
+                  id="android"
+                />
+                <label class="travel-list__title" for="android">
+                  Pink на Android
+                </label>
+              </li>
+              <li class="travel-list__item">
+                <input
+                  class="travel-list__radio"
+                  type="radio"
+                  name="travel"
+                  id="windows"
+                />
+                <label class="travel-list__title" for="windows">
+                  Windows Phone
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+      <section class="your-emotions">
+        <h2 class="visulay-hidden">Ваши эмоции</h2>
+        <div class="your-emotions__container">
+          <fieldset class="your-emotions__wrapper">
+            <legend class="visulay-hidden">ОПИШИТЕ СВОИ ЭМОЦИИ</legend>
+            <ul class="your-emotions__list emotions-list">
+              <li class="emotions-list__item">
+                <textarea
+                  name="emotions"
+                  id="emotions"
+                  cols="30"
+                  rows="10"
+                  class="emotions-list__text"
+                >
+                Можно прям в красках, не
+                стесняясь в выражениях
+                </textarea>
+                <label class="emotions-list__title" for="emotions">
+                  ОПИШИТЕ СВОИ ЭМОЦИИ
+                </label>
+              </li>
+              <li class="emotions-list__item">
+                <button>Отправить форму</button>
+              </li>
+              <li class="emotions-list__item">
+                <p class="emotions-list__text">
+                  <span class="emotions-list__text--important">*</span> —
+                  обязательные поля
+                </p>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <div class="page-footer__logo">
+          <img src="https://via.placeholder.com/150x150" alt="PINK" />
+        </div>
+        <ul class="page-footer__socials socials-list">
+          <li class="socials-list__item">
+            <a class="socials-list__item-icon-1" href="/">Twitter</a>
+          </li>
+          <li class="socials-list__item">
+            <a class="socials-list__item-icon-2" href="/">FaceBoock</a>
+          </li>
+          <li class="socials-list__item">
+            <a class="socials-list__item-icon-3" href="/">YouTube</a>
+          </li>
+        </ul>
+        <div class="page-footer__copy">
+          <a href="">Разработано</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

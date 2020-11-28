@@ -49,27 +49,27 @@
       <fieldset class="personal-data">
         <legend class="visulay-hidden">Ваши данные</legend>
         <div class="personal-data__container">
-          <ul class="personal-data__list pdata-list">
-            <li class="pdata-list__item">
-              <input class="pdata-list__text" name="data" type="text" id="surname" placeholder="Укажите фамилию *" />
-              <label class="pdata-list__title" for="surname">
-                фамилия:
-              </label>
-            </li>
-            <li class="pdata-list__item">
-              <input class="pdata-list__text" name="data" type="text" id="name" placeholder="Введите ваше имя *" />
-              <label class="pdata-list__title" for="name">
-                имя:
-              </label>
-            </li>
-            <li class="pdata-list__item">
-              <input class="pdata-list__text" name="data" type="text" id="patronymic"
-                placeholder="Ну и отчество тоже" />
-              <label class="pdata-list__title" for="patronymic">
-                отчесвто:
-              </label>
-            </li>
-          </ul>
+
+          <div class="personal-data__item">
+            <input class="personal-data__text" name="data" type="text" id="surname" placeholder="Укажите фамилию *" />
+            <label class="personal-data__title" for="surname">
+              фамилия:
+            </label>
+          </div>
+          <div class="personal-data__item">
+            <input class="personal-data__text" name="data" type="text" id="name" placeholder="Введите ваше имя *" />
+            <label class="personal-data__title" for="name">
+              имя:
+            </label>
+          </div>
+          <div class="personal-data__item">
+            <input class="personal-data__text" name="data" type="text" id="patronymic"
+              placeholder="Ну и отчество тоже" />
+            <label class="personal-data__title" for="patronymic">
+              отчесвто:
+            </label>
+          </div>
+
         </div>
       </fieldset>
 
@@ -77,96 +77,87 @@
         <legend class="achievements__title">
           Ваши безбашенные достижения в путешествии
         </legend>
-        <div class="achievements__container"></div>
-        <ul class="achievements__list achiev-list">
-          <li class="achiev-list__item">
-            <input class="achiev-list__check" name="achievements" type="checkbox" id="shark" />
-            <label class="achiev-list__text" for="shark">
+        <div class="achievements__container">
+          <div class="achievements__item">
+            <input class="achievements__check" name="achievements" type="checkbox" id="shark" />
+            <label class="achievements__text" for="shark">
               Сделал селфи с акулой
             </label>
-          </li>
-          <li class="achiev-list__item">
-            <input class="achiev-list__check" name="achievements" type="checkbox" id="beach" />
-            <label class="achiev-list__text" for="beach">
+          </div>
+          <div class="achievements__item">
+            <input class="achievements__check" name="achievements" type="checkbox" id="beach" />
+            <label class="achievements__text" for="beach">
               Обгорел на пляже
             </label>
-          </li>
-          <li class="achiev-list__item">
-            <input class="achiev-list__check" name="achievements" type="checkbox" id="norris" />
-            <label class="achiev-list__text" for="norris">
+          </div>
+          <div class="achievements__item">
+            <input class="achievements__check" name="achievements" type="checkbox" id="norris" />
+            <label class="achievements__text" for="norris">
               Видел Чака Норриса
             </label>
-          </li>
-          <li class="achiev-list__item">
-            <input class="achiev-list__check" name="achievements" type="checkbox" id="shop" />
-            <label class="achiev-list__text" for="shop">
+          </div>
+          <div class="achievements__item">
+            <input class="achievements__check" name="achievements" type="checkbox" id="shop" />
+            <label class="achievements__text" for="shop">
               Накупил сувениров
             </label>
-          </li>
-          <li class="achiev-list__item">
-            <input class="achiev-list__check" name="achievements" type="checkbox" id="tower" />
-            <label class="achiev-list__text" for="tower">
+          </div>
+          <li class="achievements__item">
+            <input class="achievements__check" name="achievements" type="checkbox" id="tower" />
+            <label class="achievements__text" for="tower">
               Удержал башню
             </label>
           </li>
-          <li class="achiev-list__item">
-            <input class="achiev-list__check" name="achievements" type="checkbox" id="hotel" />
-            <label class="achiev-list__text" for="hotel">
+          <div class="achievements__item">
+            <input class="achievements__check" name="achievements" type="checkbox" id="hotel" />
+            <label class="achievements__text" for="hotel">
               Разгромил отель
             </label>
-          </li>
-        </ul>
+          </div>
         </div>
       </fieldset>
 
       <fieldset class="personal-data">
         <legend class="visulay-hidden">Ваши данные</legend>
         <div class="personal-data__container">
-          <ul class="personal-data__list pdata-list">
-            <li class="pdata-list__item">
-              <input class="pdata-list__text" name="data" type="text" id="phone" placeholder="Номер, пожалуйста" />
-              <label class="pdata-list__title" for="phone">
-                номер телефона:
-              </label>
-            </li>
-            <li class="pdata-list__item">
-              <input class="pdata-list__text" name="data" type="text" id="adress" placeholder="Введите почту *" />
-              <label class="pdata-list__title" for="adress">
-                адрес почты:
-              </label>
-            </li>
-          </ul>
+          <div class="personal-data__item">
+            <input class="personal-data__text" name="data" type="text" id="phone" placeholder="Номер, пожалуйста" />
+            <label class="personal-data__title" for="phone">
+              номер телефона:
+            </label>
+          </div>
+          <div class="personal-data__item">
+            <input class="personal-data__text" name="data" type="text" id="adress" placeholder="Введите почту *" />
+            <label class="personal-data__title" for="adress">
+              адрес почты:
+            </label>
+          </div>
         </div>
       </fieldset>
 
-
-
       <fieldset class="travel-app">
-
         <legend class="travel-app__title">
           С каким приложением путешествовали?
         </legend>
         <div class="travel-app__container">
-          <ul class="travel-app__list travel-list">
-            <li class="travel-list__item">
-              <input class="travel-list__radio" type="radio" name="travel" id="ios" />
-              <label class="travel-list__title" for="ios">
-                Pink для iOS
-              </label>
-            </li>
-            <li class="travel-list__item">
-              <input class="travel-list__radio" type="radio" name="travel" id="android" />
-              <label class="travel-list__title" for="android">
-                Pink на Android
-              </label>
-            </li>
-            <li class="travel-list__item">
-              <input class="travel-list__radio" type="radio" name="travel" id="windows" />
-              <label class="travel-list__title" for="windows">
-                Windows Phone
-              </label>
-            </li>
-          </ul>
+          <div class="travel-app__item">
+            <input class="travel-app__radio" type="radio" name="travel" id="ios" />
+            <label class="travel-app__title" for="ios">
+              Pink для iOS
+            </label>
+          </div>
+          <div class="travel-app__item">
+            <input class="travel-app__radio" type="radio" name="travel" id="android" />
+            <label class="travel-app__title" for="android">
+              Pink на Android
+            </label>
+          </div>
+          <div class="travel-app__item">
+            <input class="travel-app__radio" type="radio" name="travel" id="windows" />
+            <label class="travel-app__title" for="windows">
+              Windows Phone
+            </label>
+          </div>
         </div>
       </fieldset>
 
@@ -174,26 +165,21 @@
 
         <legend class="visulay-hidden">Опишите свои эмоции</legend>
         <div class="your-emotions__container">
-          <ul class="your-emotions__list emotions-list">
-            <li class="emotions-list__item">
-              <textarea name="emotions" id="emotions" cols="30" rows="10" class="emotions-list__text">
+          <div class="your-emotions__item">
+            <textarea name="emotions" id="emotions" cols="30" rows="10" class="your-emotions__text">
                 Можно прям в красках, не
                 стесняясь в выражениях
                 </textarea>
-              <label class="emotions-list__title" for="emotions">
-                Опишите свои эмоции
-              </label>
-            </li>
-            <li class="emotions-list__item">
-              <button>Отправить форму</button>
-            </li>
-            <li class="emotions-list__item">
-              <p class="emotions-list__text">
-                <span class="emotions-list__text--important">*</span> —
-                обязательные поля
-              </p>
-            </li>
-          </ul>
+            <label class="your-emotions__title" for="emotions">
+              Опишите свои эмоции
+            </label>
+          </div>
+          <div class="your-emotions__item">
+            <button>Отправить форму</button>
+          </div>
+          <div class="your-emotions__item">
+            <p class="your-emotions__text"><span class="your-emotions__text--important">*</span> — обязательные поля</p>
+          </div>
         </div>
       </fieldset>
     </form>

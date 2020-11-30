@@ -157,9 +157,19 @@
             <div class="photo-editor__container">
                 <img class="photo-editor__img" src="https://via.placeholder.com/150x150" alt="фотографии пользователей">
                 <form method="post" class="photo-editor__create">
-                    <input class="photo-editor__cut" type="range">
-                    <input class="photo-editor__color" type="range">
-                    <input class="photo-editor__contrast" type="range">
+                    <div class="photo-editor__create-item">
+                        <input class="photo-editor__cut" type="range">
+                        <img class="photo-editor__cut-img" src="https://via.placeholder.com/150x150" alt="cut">
+                    </div>
+                    <div class="photo-editor__create-item">
+                        <input class="photo-editor__color" type="range">
+                        <img class="photo-editor__color-img" src="https://via.placeholder.com/150x150" alt="color">
+                    </div>
+                    <div class="photo-editor__create-item">
+                        <input class="photo-editor__contrast" type="range">
+                        <img class="photo-editor__contrast-img" src="https://via.placeholder.com/150x150"
+                            alt="contrast">
+                    </div>
                     <button class="photo-editor__button" type="submit">Запостить</button>
                     <button class="photo-editor__button photo-editor__button--disable" type="reset">Отмена</button>
                 </form>

@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>HTML Academy: Пинк</title>
+  <title>HTML Academy: Форма</title>
 </head>
 
-<body class="page__body">
+<body>
   <header class="page-header">
     <div class="page-header__container">
       <a class="page-header__logo">
@@ -17,9 +17,9 @@
           <span class="visulay-hidden">Открыть меню</span>
         </button>
         <ul class="main-navigation__list site-list">
-          <li class="site-list__item"><a href="/">Главная</a></li>
-          <li class="site-list__item"><a href="#">Фотографии</a></li>
-          <li class="site-list__item"><a href="#">Конкурс</a></li>
+          <li class="site-list__item"><a href="index.html">Главная</a></li>
+          <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+          <li class="site-list__item"><a href="form.html">Конкурс</a></li>
           <li class="site-list__item"><a href="#">HTML Academy</a></li>
         </ul>
       </nav>
@@ -40,7 +40,7 @@
     </div>
   </header>
   <main class="page-main">
-    <form action="" method="post" class="personal-information">
+    <form method="post" class="personal-information">
       <h1 class="visulay-hidden">Ваши данные</h1>
       <p class="personal-information__title">
         Поделитесь своей историей и получите шанс выиграть ценный приз —
@@ -102,12 +102,12 @@
               Накупил сувениров
             </label>
           </div>
-          <li class="achievements__item">
+          <div class="achievements__item">
             <input class="achievements__check" name="achievements" type="checkbox" id="tower" />
             <label class="achievements__text" for="tower">
               Удержал башню
             </label>
-          </li>
+          </div>
           <div class="achievements__item">
             <input class="achievements__check" name="achievements" type="checkbox" id="hotel" />
             <label class="achievements__text" for="hotel">
@@ -178,7 +178,8 @@
             <button>Отправить форму</button>
           </div>
           <div class="your-emotions__item">
-            <p class="your-emotions__text"><span class="your-emotions__text--important">*</span> — обязательные поля</p>
+            <p class="your-emotions__text"><span class="your-emotions__text your-emotions__text--important">*</span> —
+              обязательные поля</p>
           </div>
         </div>
       </fieldset>

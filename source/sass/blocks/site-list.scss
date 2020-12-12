@@ -1,0 +1,13 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  &__item-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

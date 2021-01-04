@@ -1,9 +1,7 @@
 .feedback-text-list {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+  @include reset-list;
 
-  &__item-text {
+  .feedback-text-list__item-text {
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
@@ -11,7 +9,7 @@
     color: #283645;
   }
 
-  &__item-name {
+  .feedback-text-list__item-name {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;

@@ -1,11 +1,11 @@
 .prices-table {
-  &__title {
+  .prices-table__title {
     background-color: #283645;
     border: 2px solid #283645;
     border-radius: 1px 0 0 0;
   }
 
-  &__title-text {
+  .prices-table__title-text {
     font-weight: bold;
     font-size: 18px;
     line-height: 30px;
@@ -13,7 +13,7 @@
     color: #ffffff;
   }
 
-  &__price {
+  .prices-table__price {
     font-weight: 300;
     font-size: 24px;
     line-height: 30px;
@@ -22,7 +22,7 @@
     color: #ffffff;
   }
 
-  &__row {
+  .prices-table__row {
     background: #ffffff;
     border: 2px solid #e5e5e5;
     border-radius: 1px 0 0 0;
@@ -32,7 +32,7 @@
     line-height: 30px;
   }
 
-  &__element {
+  .prices-table__element {
     background: #ffffff;
     border: 2px solid #e5e5e5;
     border-radius: 1px 0 0 0;

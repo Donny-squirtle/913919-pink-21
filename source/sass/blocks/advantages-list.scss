@@ -1,0 +1,17 @@
+.advantages-list {
+  @include reset-list;
+
+  .advantages-list__item-text-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .advantages-list__item-text-main {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+  }
+}

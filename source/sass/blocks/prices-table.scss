@@ -1,0 +1,40 @@
+.prices-table {
+  .prices-table__title {
+    background-color: #283645;
+    border: 2px solid #283645;
+    border-radius: 1px 0 0 0;
+  }
+
+  .prices-table__title-text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .prices-table__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .prices-table__row {
+    background: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 1px 0 0 0;
+    color: #283645;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .prices-table__element {
+    background: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 1px 0 0 0;
+  }
+}

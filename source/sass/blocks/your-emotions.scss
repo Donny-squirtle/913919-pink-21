@@ -1,0 +1,19 @@
+.your-emotions {
+  .your-emotions__title {
+    @include form-title;
+  }
+
+  .your-emotions__text {
+    @include form-text;
+  }
+
+  .your-emotions__text-imp {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  .your-emotions__text-imp--important {
+    color: #d22856;
+  }
+}

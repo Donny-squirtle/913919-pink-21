@@ -1,0 +1,17 @@
+.personal-data {
+  .personal-data__title {
+    font-size: 14px;
+    line-height: 30px;
+    color: #d22856;
+    text-transform: uppercase;
+  }
+
+  .personal-data__text {
+    border: 2px solid #e5e5e5;
+    border-radius: 1px;
+  }
+
+  .personal-data__text::placeholder {
+    @include form-text;
+  }
+}

@@ -1,0 +1,9 @@
+.travel-app {
+  .travel-app__title {
+    @include form-title;
+  }
+
+  .travel-app__text {
+    @include form-text;
+  }
+}

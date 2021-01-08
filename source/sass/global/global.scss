@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -22,7 +32,7 @@ input[type="radio"].visually-hidden {
 }
 
 body {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
   margin: 0;
   min-width: $mobile-width;

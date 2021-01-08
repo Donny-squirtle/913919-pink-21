@@ -3,3 +3,16 @@
   padding: 0;
   list-style: none;
 }
+
+@mixin form-title {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+@mixin form-text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+}

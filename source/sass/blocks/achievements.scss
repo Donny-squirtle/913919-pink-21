@@ -1,0 +1,9 @@
+.achievements {
+  .achievements__title {
+    @include form-title;
+  }
+
+  .achievements__text {
+    @include form-text;
+  }
+}

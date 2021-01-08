@@ -1,0 +1,28 @@
+.users-feedback {
+  background-color: #f2f2f2;
+
+  .users-feedback__text-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #283645;
+  }
+
+  .users-feedback__text-title--slim {
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .users-feedback__text-main {
+    font-size: 14px;
+    line-height: 24px;
+    color: #283645;
+  }
+
+  .users-feedback__button-title {
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #d22856;
+  }
+}

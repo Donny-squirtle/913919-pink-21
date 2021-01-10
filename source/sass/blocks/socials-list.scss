@@ -1,3 +1,8 @@
 .socials-list {
   @include reset-list;
+
+  @media (min-width: $mobile-width) {
+    display: flex;
+    justify-content: space-between;
+  }
 }

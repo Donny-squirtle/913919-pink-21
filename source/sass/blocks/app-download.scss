@@ -5,4 +5,13 @@
     line-height: 68px;
     color: #ffffff;
   }
+
+  .app-download__info {
+    width: 300px;
+
+    @media (max-width: $mobile-width) {
+      background-color: #1d2631;
+      height: 271px;
+    }
+  }
 }

@@ -1,5 +1,10 @@
 .advantages-list {
   @include reset-list;
+  display: flex;
+
+  @media (max-width: $desktop-width) {
+    flex-direction: column;
+  }
 
   .advantages-list__item-text-title {
     font-weight: bold;

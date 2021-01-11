@@ -1,9 +1,18 @@
 .site-list {
-  .site-list__item-text {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    color: #ffffff;
-    text-decoration: none;
+  @include reset-list;
+  display: flex;
+  width: 620px;
+  justify-content: space-between;
+
+  @media (max-width: $tablet-width) {
+    display: none;
   }
+}
+
+.site-list__item-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
 }

@@ -1,0 +1,12 @@
+.page-button {
+  .page-button__item {
+    width: 6px;
+    height: 6px;
+    background: #283645;
+    opacity: 0.3;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

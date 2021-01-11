@@ -24,11 +24,20 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-  max-width: $desktop-width;
   min-width: $mobile-width;
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+    min-width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+    max-width: 1440px;
+  }
 }
 
 body {

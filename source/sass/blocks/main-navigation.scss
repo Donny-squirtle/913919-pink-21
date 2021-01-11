@@ -1,9 +1,11 @@
 .main-navigation {
-  background-color: rgba(#000000, 0.3%);
-  height: 110px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  .main-navigation__container {
+    background-color: rgba(#000000, 0.3%);
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .main-navigation__toggle {

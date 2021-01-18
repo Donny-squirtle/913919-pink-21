@@ -1,22 +1,33 @@
 .advantages-list {
   @include reset-list;
   display: flex;
+  flex-direction: column;
 
-  @media (max-width: $desktop-width) {
-    flex-direction: column;
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
   }
 
   .advantages-list__item-text-title {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 24px;
     color: #000000;
+
+    @media (min-width: $desktop-width) {
+      font-size: 30px;
+      line-height: 30px;
+    }
   }
 
   .advantages-list__item-text-main {
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     color: #283645;
+
+    @media (min-width: $desktop-width) {
+      font-size: 18px;
+      line-height: 30px;
+    }
   }
 }

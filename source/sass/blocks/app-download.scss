@@ -1,17 +1,25 @@
 .app-download {
   .app-download__title {
     font-weight: 300;
-    font-size: 50px;
-    line-height: 68px;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
     color: #ffffff;
+
+    @media (min-width: $tablet-width) {
+      font-size: 50px;
+      line-height: 68px;
+    }
   }
 
   .app-download__info {
-    width: 300px;
 
-    @media (max-width: $mobile-width) {
-      background-color: #1d2631;
-      height: 271px;
+    background-color: #1d2631;
+    height: 271px;
+
+    @media (min-width: $tablet-width) {
+      width: 300px;
+      background-color: transparent;
     }
   }
 }

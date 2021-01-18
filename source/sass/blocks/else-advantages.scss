@@ -1,33 +1,47 @@
 .else-advantages {
-  background-color: #f2f2f2;
+  display: none;
 
-  @media (max-width: $tablet-width) {
-    background-color: #ffffff;
+  @media (min-width: $desktop-width) {
+    background-color: #f2f2f2;
   }
 
-  @media (max-width: $mobile-width) {
-    display: none;
+  @media (min-width: $tablet-width) {
+    display: block;
   }
 
   .else-advantages__text-title {
     font-weight: bold;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 36px;
     color: #000000;
     margin: 0;
+
+    @media (min-width: $desktop-width) {
+      line-height: 30px;
+    }
   }
 
   .else-advantages__text-main {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     color: #283645;
+
+    @media (min-width: $desktop-width) {
+      font-size: 18px;
+      line-height: 30px;
+    }
   }
 
   .else-advantages__text-link {
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     text-decoration-line: underline;
     color: #d22856;
+
+    @media (min-width: $desktop-width) {
+      font-size: 18px;
+      line-height: 30px;
+    }
   }
 }

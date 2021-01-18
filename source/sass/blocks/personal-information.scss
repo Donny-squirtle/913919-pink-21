@@ -1,4 +1,7 @@
 .personal-information {
+  display: flex;
+  flex-direction: column;
+
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -10,11 +13,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 64px;
-  }
-
-  @media (max-width: $tablet-width) {
-    display: flex;
-    flex-direction: column;
   }
 
   .personal-information__title {

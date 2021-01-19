@@ -17,3 +17,28 @@
     }
   }
 }
+
+.our-platform__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.our-platform__item-icon-1 {
+  display: flex;
+  width: 46px;
+  height: 56px;
+}
+
+.our-platform__item-icon-2 {
+  display: flex;
+  width: 43px;
+  height: 47px;
+}
+
+.our-platform__item-icon-3 {
+  display: flex;
+  width: 44px;
+  height: 41px;
+}

@@ -13,7 +13,10 @@
   }
 
   .app-download__info {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #1d2631;
     height: 271px;
 

@@ -3,16 +3,44 @@
 
   .feedback-text-list__item-text {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 30px;
     text-align: center;
     color: #283645;
+
+    @media (min-width: $tablet-width) {
+      font-size: 18px;
+    }
   }
 
   .feedback-text-list__item-name {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 30px;
     color: #000000;
+
+    @media (min-width: $tablet-width) {
+      font-size: 20px;
+    }
+
+    @media (min-width: $desktop-width) {
+      font-size: 24px;
+    }
+  }
+
+  .feedback-text-list__item-age {
+    display: none;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      font-size: 14px;
+      line-height: 30px;
+      color: #283645;
+      margin: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      font-size: 18px;
+    }
   }
 }

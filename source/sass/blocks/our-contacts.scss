@@ -1,19 +1,28 @@
 .our-contacts {
   @include reset-list;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 
-  @media (max-width: $tablet-width) {
-    flex-wrap: wrap;
-    justify-content: space-around;
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: $mobile-width) {
-    flex-direction: column;
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .our-contacts__item {
     width: 211px;
     text-align: center;
+  }
+
+  .our-contacts__item:last-child {
+    @media (min-width: $tablet-width) {
+      grid-column: 1/3;
+    }
   }
 }

@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 41px;
 
   @media (min-width: $tablet-width) {
     display: grid;
@@ -18,6 +19,7 @@
   .our-contacts__item {
     width: 211px;
     text-align: center;
+    margin-bottom: 31px;
   }
 
   .our-contacts__item:last-child {

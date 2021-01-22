@@ -5,6 +5,8 @@
     line-height: 33px;
     text-align: center;
     color: #ffffff;
+    margin: 0;
+    padding-top: 29px;
 
     @media (min-width: $tablet-width) {
       font-size: 50px;
@@ -12,13 +14,23 @@
     }
   }
 
+  .app-download__top {
+    height: 396px;
+    background: url(../../img/page-header/phone.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
   .app-download__info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1d2631;
     height: 271px;
+    background-size: 490px, cover;
+    padding-top: 28px;
+    padding-bottom: 38px;
 
     @media (min-width: $tablet-width) {
       width: 300px;

@@ -2,18 +2,33 @@
   border: 0;
   padding: 0;
   margin: 0;
+}
 
-  .personal-data__title {
-    @include form-title;
-  }
+.personal-data__item {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin-bottom: 29px;
 
-  .personal-data__text {
-    border: 2px solid #e5e5e5;
-    border-radius: 1px;
-    height: 59px;
+  @media (min-width: $tablet-width) {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 56px;
   }
+}
 
-  .personal-data__text::placeholder {
-    @include form-text;
-  }
+.personal-data__title {
+  @include form-title;
+  margin-bottom: 17px;
+}
+
+.personal-data__text {
+  border: 2px solid #e5e5e5;
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+}
+
+.personal-data__text::placeholder {
+  @include form-text;
 }

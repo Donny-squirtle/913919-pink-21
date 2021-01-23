@@ -1,33 +1,61 @@
 .your-emotions {
   padding: 0;
   margin: 0;
-  border: 2px solid #e5e5e5;
-  border-radius: 1px;
+  border: 0;
+  margin-bottom: 26px;
+
+  @media (min-width: $tablet-width) {
+    border: 2px solid #e5e5e5;
+    border-radius: 1px;
+  }
 
   @media (min-width: $desktop-width) {
     grid-column: 1/3;
   }
+}
 
-  .your-emotions__title {
-    @include form-title;
-  }
+.your-emotions__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .your-emotions__text {
-    @include form-text;
+.your-emotions__title {
+  @include form-title;
+}
 
-    @media (min-width: $tablet-width) {
-      border: 2px solid #e5e5e5;
-      border-radius: 1px;
-    }
-  }
+.your-emotions__text {
+  @include form-text;
+  border: 2px solid #e5e5e5;
+  border-radius: 1px;
+  width: 100%;
+  margin-bottom: 50px;
+}
 
-  .your-emotions__text-imp {
-    font-size: 14px;
-    line-height: 30px;
-    text-transform: uppercase;
-  }
+.your-emotions__text-imp {
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 0;
+}
 
-  .your-emotions__text-imp--important {
-    color: #d22856;
-  }
+.your-emotions__text-imp--important {
+  color: #d22856;
+}
+
+.your-emotions__button {
+  background: #2aab6d;
+  border: 2px solid #2aab6d;
+  border-radius: 1px;
+  width: 276px;
+  height: 59px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 46px;
 }

@@ -1,8 +1,15 @@
 .page-header {
-  background: url(../../img/page-header/back-mobile.jpg);
+  background: url("../../img/page-header/back-mobile.jpg");
   background-repeat: no-repeat;
+  margin-bottom: 46px;
 
   @media (min-width: $tablet-width) {
+    background-image: url("../../img/page-header/back-tablet.jpg");
+    margin-bottom: 58px;
+  }
+
+  @media (min-width: $desktop-width) {
     background-image: url("../../img/page-header/back-desktop.jpg");
+    margin-bottom: 77px;
   }
 }

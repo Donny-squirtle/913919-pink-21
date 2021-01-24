@@ -1,11 +1,31 @@
 .app-download__container {
   @media (min-width: $tablet-width) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 20px;
-    background: url("../../img/page-header/phone-tablet.png");
+    padding: 0 30px;
+    margin: 0 auto;
+    height: 545px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+    margin: 0 auto;
+    height: 645px;
+  }
+}
+
+.app-download__container--def {
+  height: auto;
+}
+
+.app-download--img {
+  @media (min-width: $tablet-width) {
+    background: url("../../img/phone-tablet.png");
     background-repeat: no-repeat;
     background-position-y: bottom;
+  }
+
+  @media (min-width: $desktop-width) {
+    background: url("../../img/hand-desktop.png");
+    background-repeat: no-repeat;
   }
 }
 
@@ -15,26 +35,47 @@
   line-height: 33px;
   text-align: center;
   color: #ffffff;
-  margin: 0;
-  padding-top: 29px;
+  margin: 0 auto;
+  width: 280px;
 
   @media (min-width: $tablet-width) {
     font-size: 50px;
     line-height: 68px;
-    padding-top: 100px;
+    margin: 0;
+  }
+}
+
+.app-download__title--width {
+  @media (min-width: $tablet-width) {
+    width: 480px;
   }
 }
 
 .app-download__top {
-  height: 396px;
-  background: url("../../img/page-header/phone.png");
+  padding-bottom: 84px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 74px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 104px;
+  }
+}
+
+.app-download__top--center {
+  display: flex;
+  justify-content: center;
+}
+
+.app-download__top--img {
+  height: 367px;
+  background: url("../../img/hand-mobile.png");
   background-repeat: no-repeat;
   background-position: bottom;
 
   @media (min-width: $tablet-width) {
     background: transparent;
-    grid-column: 1/1;
-    min-width: 0;
     height: auto;
   }
 }
@@ -53,6 +94,5 @@
   @media (min-width: $tablet-width) {
     width: 300px;
     background-color: transparent;
-    grid-column: 1/1;
   }
 }

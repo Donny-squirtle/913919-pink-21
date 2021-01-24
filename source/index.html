@@ -14,7 +14,7 @@
       <nav class="main-navigation">
         <div class="main-navigation__container container">
           <a class="main-navigation__logo">
-            <img class="main-navigation__logo-img" src="img/page-header/pink.svg" alt="мобильное приложение pink" />
+            <img class="main-navigation__logo-img" src="img/pink.svg" alt="мобильное приложение pink" />
           </a>
           <button class="main-navigation__toggle" type="button">
             <span class="visually-hidden">Открыть меню</span>
@@ -28,26 +28,22 @@
         </div>
       </nav>
       <section class="app-download">
-        <div class="app-download__container">
+        <div class="app-download__container app-download--img">
           <h2 class="visually-hidden">Поддерживаемые платформы</h2>
-          <div class="app-download__top container">
+          <div class="app-download__top app-download__top--img">
             <p class="app-download__title">Взгляните на жизнь иначе!</p>
-            <!-- <img
-                class="app-download__img"
-                src="https://via.placeholder.com/150x150"
-              /> -->
           </div>
           <div class="app-download__info">
             <a class="button--app-download-link button" href="#">Скачать приложение</a>
             <div class="our-platform">
               <a href="" class="our-platform__item">
-                <img class="our-platform__item-icon-1" src="img/page-header/apple-logo.svg" alt="Apple" />
+                <img class="our-platform__item-icon-1" src="img/apple-logo.svg" alt="Apple" />
               </a>
               <a href="" class="our-platform__item">
-                <img class="our-platform__item-icon-2" src="img/page-header/android-logo.svg" alt="Android" />
+                <img class="our-platform__item-icon-2" src="img/android-logo.svg" alt="Android" />
               </a>
               <a href="" class="our-platform__item">
-                <img class="our-platform__item-icon-3" src="img/page-header/microsoft-logo.svg" alt="Windows" />
+                <img class="our-platform__item-icon-3" src="img/microsoft-logo.svg" alt="Windows" />
               </a>
               <p class="our-platform__text">
                 Доступно для iPhone, iPad, Android, Windows Phone, OS X,
@@ -61,14 +57,18 @@
   </header>
   <main class="page-main">
     <h1 class="visually-hidden">Pink</h1>
-    <section class="app-advantages">
-      <div class="app-advantages__container container">
+    <section class="page-top">
+      <div class="container">
         <p class="page-title">
           Устали от серости мегаполиса?
         </p>
         <p class="page-title">
           Нам есть, что вам предложить!
         </p>
+      </div>
+    </section>
+    <section class="app-advantages">
+      <div class="app-advantages__container container">
         <h2 class="visually-hidden">Приемущеста приложения</h2>
         <div class="main-advantages container">
           <ul class="main-advantages__list advantages-list">
@@ -134,7 +134,7 @@
               будущей женой в комментариях к выложенной фотографии!»
             </p>
           </li>
-          <li class="feedback-text-list__item">
+          <li class="feedback-text-list__item feedback-text-list__item--hide">
             <p class="feedback-text-list__item-name">Николай Петров</p>
             <p class="feedback-text-list__item-age">25 лет, водитель трамвая</p>
             <p class="feedback-text-list__item-text">
@@ -143,7 +143,7 @@
               будущей женой в комментариях к выложенной фотографии!»
             </p>
           </li>
-          <li class="feedback-text-list__item">
+          <li class="feedback-text-list__item feedback-text-list__item--hide">
             <p class="feedback-text-list__item-name">Николай Петров</p>
             <p class="feedback-text-list__item-age">25 лет, водитель трамвая</p>
             <p class="feedback-text-list__item-text">
@@ -154,9 +154,9 @@
           </li>
         </ul>
         <div class="page-button">
-          <button class="page-button__item" type="button"></button>
-          <button class="page-button__item" type="button"></button>
-          <button class="page-button__item" type="button"></button>
+          <span class="page-button__item"></span>
+          <span class="page-button__item"></span>
+          <span class="page-button__item"></span>
         </div>
       </div>
     </section>
@@ -216,6 +216,11 @@
             </td>
           </tr>
         </table>
+        <div class="page-button page-button--table">
+          <span class="page-button__item"></span>
+          <span class="page-button__item"></span>
+          <span class="page-button__item"></span>
+        </div>
       </div>
     </section>
     <section class="contacts">
@@ -241,25 +246,24 @@
     </section>
     <section class="contacts-map">
       <h2 class="visually-hidden">Карта</h2>
-      <div class="contacts-map__container container">
-        <img src="img/page-header/map.jpg" alt="map">
-      </div>
+      <iframe class="contacts-map__container"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A44a3c3de5260dc7afa79a8fceb255fef1d98511598661137badbd0ae6abbe28c&amp;source=constructor"></iframe>
     </section>
   </main>
   <footer class="page-footer">
     <div class="page-footer__container container">
       <div class="page-footer__logo">
-        <img src="img/page-header/logotype-blue-tablet.svg" alt="pink" />
+        <img src="img/logotype-blue-tablet.svg" alt="pink" />
       </div>
       <div class="page-footer__socials socials-list">
         <a class="socials-list__item" href="/">
-          <img class="socials-list__item-icon-1" src="img/page-header/twitter.svg" alt="twitter">
+          <img class="socials-list__item-icon-1" src="img/twitter.svg" alt="twitter">
         </a>
         <a class="socials-list__item" href="/">
-          <img class="socials-list__item-icon-2" src="img/page-header/facebook.svg" alt="facebook">
+          <img class="socials-list__item-icon-2" src="img/facebook.svg" alt="facebook">
         </a>
         <a class="socials-list__item" href="/">
-          <img class="socials-list__item-icon-3" src="img/page-header/youtube.svg" alt="youtube">
+          <img class="socials-list__item-icon-3" src="img/youtube.svg" alt="youtube">
         </a>
       </div>
       <div class="page-footer__copy">

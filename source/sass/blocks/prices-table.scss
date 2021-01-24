@@ -1,22 +1,32 @@
 .prices-table {
-  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 45px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+  }
 }
 
 .prices-table__title {
   background-color: #283645;
-  border: 2px solid #283645;
-  border-radius: 1px 0 0 0;
   margin: 0;
-  width: 20%;
   padding: 16px 0 10px 0;
+  width: 276px;
+  border-bottom: 2px solid #283645;
+
+  @media (min-width: $tablet-width) {
+    width: 25%;
+  }
 }
 
 .prices-table__title--first {
   border-top-left-radius: 3px;
+  border-right: 2px solid #e5e5e5;
 }
 
 .prices-table__title--last {
   border-top-right-radius: 3px;
+  border-left: 2px solid #e5e5e5;
 }
 
 .prices-table__title-text {
@@ -53,8 +63,12 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
-  width: 25%;
+  width: 276px;
   padding: 6px 15px;
+
+  @media (min-width: $tablet-width) {
+    width: 25%;
+  }
 
   @media (min-width: $desktop-width) {
     font-size: 18px;
@@ -65,5 +79,9 @@
   background: #ffffff;
   border: 2px solid #e5e5e5;
   border-radius: 1px 0 0 0;
-  width: 25%;
+  width: 276px;
+
+  @media (min-width: $tablet-width) {
+    width: 25%;
+  }
 }

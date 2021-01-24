@@ -1,12 +1,23 @@
 .page-button {
-  .page-button__item {
-    width: 6px;
-    height: 6px;
-    background: #283645;
-    opacity: 0.3;
-  }
-
   @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.page-button__item {
+  width: 6px;
+  height: 6px;
+  background: #283645;
+  opacity: 0.3;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 19px;
+}
+
+.page-button--table {
+  padding-bottom: 49px;
+
+  @media (min-width: $tablet-width) {
     display: none;
   }
 }

@@ -13,30 +13,53 @@
       padding: 30px;
     }
   }
+}
 
-  .users-feedback__text-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #283645;
+.users-feedback__text-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.users-feedback__text-title--slim {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.users-feedback__text-main {
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.users-feedback__text-bottom {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
+}
 
-  .users-feedback__text-title--slim {
-    font-weight: 300;
-    font-size: 12px;
-  }
+.users-feedback__button-title {
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #d22856;
+  margin: 0;
+}
 
-  .users-feedback__text-main {
-    font-size: 14px;
-    line-height: 24px;
-    color: #283645;
-  }
+.users-feedback__button {
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  background-image: url("../../img/heart.svg");
+  margin-right: 18px;
 
-  .users-feedback__button-title {
-    font-size: 12px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #d22856;
+  @media (min-width: $tablet-width) {
+    margin: 0;
   }
 }
 

@@ -1,11 +1,11 @@
 .site-list {
   @include reset-list;
   width: 620px;
-  justify-content: space-between;
   display: none;
 
   @media (min-width: $desktop-width) {
     display: flex;
+    justify-content: space-between;
   }
 }
 

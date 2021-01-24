@@ -1,24 +1,25 @@
 .page-footer {
   display: flex;
   align-items: center;
+}
 
-  .page-footer__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 284px;
+.page-footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 284px;
 
-    @media (min-width: $tablet-width) {
-      flex-direction: row;
-      height: 127px;
-    }
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    height: 127px;
+  }
 
-    @media (min-width: $desktop-width) {
-      height: 197px;
-    }
+  @media (min-width: $desktop-width) {
+    height: 197px;
   }
 }
+
 
 .page-footer__logo {
   display: flex;
@@ -26,9 +27,26 @@
   height: 40px;
 }
 
+.page-footer__copy {
+  width: 130px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 .page-footer__copy-text {
   text-decoration: none;
   font-size: 14px;
   line-height: 18px;
   color: #283645;
+}
+
+.page-footer__copy::after {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 34px;
+  background: url("../../img/page-header/html-academy.svg");
+  right: 0;
 }

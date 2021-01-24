@@ -14,7 +14,7 @@
       <nav class="main-navigation">
         <div class="main-navigation__container container">
           <a class="main-navigation__logo">
-            <img src="https://via.placeholder.com/150x150" alt="мобильное приложение pink" />
+            <img class="main-navigation__logo-img" src="img/page-header/pink.svg" alt="мобильное приложение pink" />
           </a>
           <button class="main-navigation__toggle" type="button">
             <span class="visually-hidden">Открыть меню</span>
@@ -126,13 +126,13 @@
         <div class="contacts-data__container">
           <div class="contacts-data__item">
             <input class="contacts-data__text" name="data" type="text" id="phone" placeholder="Номер, пожалуйста" />
-            <label class="contacts-data__title" for="phone">
+            <label class="contacts-data__title-text" for="phone">
               номер телефона:
             </label>
           </div>
           <div class="contacts-data__item">
             <input class="contacts-data__text" name="data" type="text" id="adress" placeholder="Введите почту *" />
-            <label class="contacts-data__title" for="adress">
+            <label class="contacts-data__title-text" for="adress">
               адрес почты:
             </label>
           </div>
@@ -176,7 +176,7 @@
                 </textarea>
           </div>
           <div class="your-emotions__item">
-            <button>Отправить форму</button>
+            <button class="your-emotions__button button">Отправить форму</button>
           </div>
           <div class="your-emotions__item">
             <p class="your-emotions__text-imp"><span
@@ -191,21 +191,21 @@
   <footer class="page-footer">
     <div class="page-footer__container container">
       <div class="page-footer__logo">
-        <img src="https://via.placeholder.com/150x150" alt="pink" />
+        <img src="img/page-header/logotype-blue-tablet.svg" alt="pink" />
       </div>
-      <ul class="page-footer__socials socials-list">
-        <li class="socials-list__item">
-          <a class="socials-list__item-icon-1" href="/">Twitter</a>
-        </li>
-        <li class="socials-list__item">
-          <a class="socials-list__item-icon-2" href="/">FaceBoock</a>
-        </li>
-        <li class="socials-list__item">
-          <a class="socials-list__item-icon-3" href="/">YouTube</a>
-        </li>
-      </ul>
+      <div class="page-footer__socials socials-list">
+        <a class="socials-list__item" href="/">
+          <img class="socials-list__item-icon-1" src="img/page-header/twitter.svg" alt="twitter">
+        </a>
+        <a class="socials-list__item" href="/">
+          <img class="socials-list__item-icon-2" src="img/page-header/facebook.svg" alt="facebook">
+        </a>
+        <a class="socials-list__item" href="/">
+          <img class="socials-list__item-icon-3" src="img/page-header/youtube.svg" alt="youtube">
+        </a>
+      </div>
       <div class="page-footer__copy">
-        <a href="">Разработано</a>
+        <a class="page-footer__copy-text" href="/">Разработано</a>
       </div>
     </div>
   </footer>

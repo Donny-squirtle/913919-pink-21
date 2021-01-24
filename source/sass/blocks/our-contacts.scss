@@ -15,16 +15,16 @@
     flex-direction: row;
     justify-content: space-around;
   }
+}
 
-  .our-contacts__item {
-    width: 211px;
-    text-align: center;
-    margin-bottom: 31px;
-  }
+.our-contacts__item {
+  width: 211px;
+  text-align: center;
+  margin-bottom: 31px;
+}
 
-  .our-contacts__item:last-child {
-    @media (min-width: $tablet-width) {
-      grid-column: 1/3;
-    }
+.our-contacts__item:last-child {
+  @media (min-width: $tablet-width) {
+    grid-column: 1/3;
   }
 }

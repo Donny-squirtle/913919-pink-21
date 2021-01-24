@@ -1,26 +1,36 @@
 .travel-app {
   padding: 0;
   margin: 0;
-  border: 2px solid #e5e5e5;
-  border-radius: 1px;
+  border: 0;
   background-color: #f2f2f2;
-
+  margin-bottom: 42px;
 
   @media (min-width: $tablet-width) {
     background-color: transparent;
     grid-row: 3;
+    border: 2px solid #e5e5e5;
+    border-radius: 1px;
   }
 
   @media (min-width: $desktop-width) {
     grid-row: 2;
     grid-column: 2/2;
   }
+}
 
-  .travel-app__title {
-    @include form-title;
-  }
+.travel-app__item {
+  margin-bottom: 38px;
 
-  .travel-app__text {
-    @include form-text;
+  @media (min-width: $tablet-width) {
+    padding-left: 10%;
   }
+}
+
+.travel-app__title {
+  @include form-title;
+  margin-bottom: 40px;
+}
+
+.travel-app__text {
+  @include form-text;
 }
